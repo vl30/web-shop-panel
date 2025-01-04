@@ -17,7 +17,7 @@ function showPayment(ram, price) {
     
     orderDetails.innerHTML = `<strong><i class="fas fa-shopping-cart"></i> Detail Pesanan:</strong><br>
                             Panel ${ram} - Rp ${price.toLocaleString()}`;
-    contactOwner.href = `https://wa.me/085765326564?text=bang%20gw%20udah%20bayar%20panel%20yang%20${ram}%20harga%20${price}k%20bg`;
+    contactOwner.href = `https://wa.me/6285765326564?text=bang%20gw%20udah%20bayar%20panel%20yang%20${ram}%20harga%20${price}k%20bg`;
     
     modal.style.display = 'flex';
     modal.querySelector('.modal-content').classList.add('animate__animated', 'animate__zoomIn');
